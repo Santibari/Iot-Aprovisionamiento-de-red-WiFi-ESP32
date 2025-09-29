@@ -28,5 +28,5 @@ Este proyecto implementa una solución IoT basada en el microcontrolador **ESP32
 4. Ingresar SSID y contraseña de la red WiFi
 5. El ESP32 intentará conectarse y mostrará el resultado por serial
 
-
+![Texto alternativo](/Untitled)
 
