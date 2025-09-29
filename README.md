@@ -76,6 +76,8 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 | 4. Reset físico | Pulsar botón 5s | Borra credenciales y reinicia en AP |
 | 5. Reinicio eléctrico | Apagar/encender | Reconecta automáticamente a red previa |
 
+- Codigo: El codigo se encuentra en la raiz de este repositorio.
+
 ---
 
 ## 📖 Referencias
