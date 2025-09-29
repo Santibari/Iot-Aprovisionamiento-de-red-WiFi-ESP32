@@ -61,7 +61,7 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 ##  Diagramas del sistema
 
 - **Diagrama de secuencia (UML)**  
-  ![Secuencia UML](/img/img/Untitled.jpg)
+  ![Secuencia UML](/img/Untitled.jpg)
 
 
 ---
