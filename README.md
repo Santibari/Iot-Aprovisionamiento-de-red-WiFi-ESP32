@@ -1,11 +1,11 @@
-# 📡 Proyecto IoT: Aprovisionamiento WiFi con ESP32
+#  Proyecto IoT: Aprovisionamiento WiFi con ESP32
 
 Este proyecto implementa una solución **IoT** basada en el microcontrolador **ESP32** que permite la configuración dinámica de la red WiFi sin necesidad de reprogramar el dispositivo.  
 El sistema emplea un **portal cautivo** (interfaz web local) para que el usuario final ingrese el **SSID** y la **contraseña** de su red WiFi. Las credenciales se guardan en memoria no volátil y el dispositivo se reconecta automáticamente en posteriores reinicios.  
 
 ---
 
-## 📑 Abstract
+##  Abstract
 En este proyecto se diseña e implementa un mecanismo de **aprovisionamiento de red WiFi** para dispositivos IoT basados en ESP32. El sistema inicia en modo AP si no hay credenciales almacenadas, ofreciendo un portal cautivo local para que el usuario configure la red. Posteriormente, guarda la información en memoria no volátil y reconecta automáticamente.  
 El diseño contempla **buenas prácticas de ingeniería**, documentación bajo estándar **IEEE**, validación funcional y pruebas mediante **Postman**.  
 
@@ -13,7 +13,7 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 
 ---
 
-## 🧰 Requisitos del sistema
+##  Requisitos del sistema
 
 - Microcontrolador **ESP32**
 - Entorno de desarrollo **Arduino IDE**
@@ -23,7 +23,7 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 
 ---
 
-## ⚙️ Funcionalidades principales
+##  Funcionalidades principales
 
 - ✅ Inicio en **modo AP** si no existen credenciales guardadas  
 - ✅ Interfaz web (portal cautivo) para ingresar SSID y contraseña  
@@ -36,7 +36,7 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 
 ---
 
-## 🚀 Instrucciones de uso
+##  Instrucciones de uso
 
 1. Subir el código al ESP32 desde Arduino IDE.  
 2. Encender el dispositivo:  
@@ -48,7 +48,7 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 
 ---
 
-## 📡 Endpoints implementados
+## Endpoints implementados
 
 | Método | URL                  | Descripción                                      | Body (JSON)                         | Respuesta (ejemplo) |
 |--------|----------------------|--------------------------------------------------|-------------------------------------|----------------------|
@@ -58,7 +58,7 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 
 ---
 
-## 📊 Diagramas del sistema
+##  Diagramas del sistema
 
 - **Diagrama de secuencia (UML)**  
   ![Secuencia UML](Untitled.jpg)
@@ -66,7 +66,7 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 
 ---
 
-## 🧪 Plan de pruebas
+##  Plan de pruebas
 
 | Caso de prueba | Acción | Resultado esperado |
 |----------------|--------|---------------------|
@@ -80,7 +80,7 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 
 ---
 
-## 📖 Referencias
+##  Referencias
 
 [1] Espressif Systems, *ESP32 Wi-Fi Programming Guide*, 2023.  
 [2] Arduino, *WiFi Library for ESP32 Documentation*, 2024.  
@@ -93,4 +93,3 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 - **Juan David Heano Osorio** – Universidad De la sabana 
 - **Santiago Bazzani Rincon** – Universidad De la sabana
 
-📅 Fecha de entrega: Septiembre 2025
