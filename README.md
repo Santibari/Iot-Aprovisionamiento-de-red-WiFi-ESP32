@@ -89,9 +89,9 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 
 6. Hacemos una preuba con get mediante postman
    
- ![Secuencia UML](get1.jpeg)
- ![Secuencia UML](get2.jpeg)
- ![Secuencia UML](get3.jpeg)
+ ![Secuencia UML](Get1.jpeg)
+ ![Secuencia UML](Get2.jpeg)
+ ![Secuencia UML](Get3.jpeg)
 
  7. Hacemos una preuba con post mediante postman
 
