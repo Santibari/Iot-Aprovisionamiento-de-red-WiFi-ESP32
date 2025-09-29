@@ -71,21 +71,32 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 1. Iniciamos la esp32 conectandola una toma o Computador
 2. Nos conectamos a la red desde un computador usando las credenciales dadas en el codigo
    
- ![Secuencia UML](4.jpeg)
+ ![Secuencia UML](4.png)
 
-4. Al conectamos ingresamos a la web que inicia la esp32 mediante el puerto 80 en este caso la ip es 192.168.4.1
+3. Al conectamos ingresamos a la web que inicia la esp32 mediante el puerto 80 en este caso la ip es 192.168.4.1
    
  HTTP://192.168.4.1
 
-6. Al desplegarlo nos aparece un menu donde debemos dar las credenciales de la red a la que queramos conectar
+4. Al desplegarlo nos aparece un menu donde debemos dar las credenciales de la red a la que queramos conectar (Podemos hacer escaneo de las redes disponibles)
    
  ![Secuencia UML](2.jpeg)
 
-8. Cuando nosotros mandamos y mandamos a conectar al wifi que querramos (en el serial de la esp32 nos dira si el status es correcto y esta conectado)
+ ![Secuencia UML](es.jpeg)
+
+5. Cuando nosotros mandamos a conectar al wifi que querramos (en el serial de la esp32 nos dira si el status es correcto y esta conectado)
 
  ![Secuencia UML](1.jpeg)
 
-10. 
+6. Hacemos una preuba con get mediante postman
+   
+ ![Secuencia UML](get1.jpeg)
+ ![Secuencia UML](get2.jpeg)
+ ![Secuencia UML](get3.jpeg)
+
+ 7. Hacemos una preuba con post mediante postman
+
+ ![Secuencia UML](Post1.jpeg)
+ ![Secuencia UML](Post2.jpeg)
 
 - Codigo: El codigo se encuentra en la raiz de este repositorio.
 
