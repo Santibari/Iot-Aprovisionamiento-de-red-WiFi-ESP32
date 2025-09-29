@@ -74,10 +74,10 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 3. Al conectamos ingresamos a la web que inicia la esp32 mediante el puerto 80 en este caso la ip es 192.168.4.1
 
 4. Al desplegarlo nos aparece un menu donde debemos dar las credenciales de la red a la que queramos conectar
-<img width="1324" height="668" alt="image" src="https://github.com/user-attachments/assets/7f9af98c-a29b-4659-858e-9beb0005fee4" />
+
 
 5. Cuando nosotros mandamos y mandamos a conectar al wifi que querramos (en el serial de la esp32 nos dira si el status es correcto y esta conectado)
-<img width="487" height="228" alt="image" src="https://github.com/user-attachments/assets/ec47201a-6253-4a98-a331-aab220d43bfe" />
+
 
 6. 
 
