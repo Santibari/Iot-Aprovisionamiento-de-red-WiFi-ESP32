@@ -61,7 +61,7 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 ##  Diagramas del sistema
 
 - **Diagrama de secuencia (UML)**  
-  ![Secuencia UML](Untitled.jpg)
+  ![Secuencia UML](/img/img/Untitled.jpg)
 
 
 ---
@@ -71,7 +71,7 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 1. Iniciamos la esp32 conectandola una toma o Computador
 2. Nos conectamos a la red desde un computador usando las credenciales dadas en el codigo
    
- ![Secuencia UML](4.png)
+ ![Secuencia UML](/img/4.png)
 
 3. Al conectamos ingresamos a la web que inicia la esp32 mediante el puerto 80 en este caso la ip es 192.168.4.1
    
@@ -79,24 +79,24 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
 
 4. Al desplegarlo nos aparece un menu donde debemos dar las credenciales de la red a la que queramos conectar (Podemos hacer escaneo de las redes disponibles)
    
- ![Secuencia UML](2.jpeg)
+ ![Secuencia UML](/img/2.jpeg)
 
- ![Secuencia UML](es.jpeg)
+ ![Secuencia UML](/img.es.jpeg)
 
 5. Cuando nosotros mandamos a conectar al wifi que querramos (en el serial de la esp32 nos dira si el status es correcto y esta conectado)
 
- ![Secuencia UML](1.jpeg)
+ ![Secuencia UML](/img/1.jpeg)
 
 6. Hacemos una preuba con get mediante postman
    
- ![Secuencia UML](Get1.jpeg)
- ![Secuencia UML](Get2.jpeg)
- ![Secuencia UML](Get3.jpeg)
+ ![Secuencia UML](/img/Get1.jpeg)
+ ![Secuencia UML](/img/Get2.jpeg)
+ ![Secuencia UML](/img/Get3.jpeg)
 
  7. Hacemos una preuba con post mediante postman
 
- ![Secuencia UML](Post1.jpeg)
- ![Secuencia UML](Post2.jpeg)
+ ![Secuencia UML](/img/Post1.jpeg)
+ ![Secuencia UML](/img/Post2.jpeg)
 
 - Codigo: El codigo se encuentra en la raiz de este repositorio.
 
