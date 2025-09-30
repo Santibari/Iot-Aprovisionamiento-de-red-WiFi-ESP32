@@ -81,7 +81,7 @@ El diseño contempla **buenas prácticas de ingeniería**, documentación bajo e
    
  ![Secuencia UML](/img/2.jpeg)
 
- ![Secuencia UML](/img/3.jpeg)
+ ![Secuencia UML](/img/es.jpeg)
 
 5. Cuando nosotros mandamos a conectar al wifi que querramos (en el serial de la esp32 nos dira si el status es correcto y esta conectado)
 
